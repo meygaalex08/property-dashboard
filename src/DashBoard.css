@@ -1,0 +1,104 @@
+
+.dashboard-container {
+  margin: 0 auto;
+  padding: 30px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #a8edea, #fed6e3); 
+  min-height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  color: #1a1a1a;
+  margin-bottom: 40px;
+  font-size: 32px;
+  font-weight: 700;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+}
+
+.loading {
+  text-align: center;
+  font-size: 18px;
+  color: #333;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 25px;
+}
+
+.property-card {
+  background: #fff;
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+}
+
+.property-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  background: linear-gradient(135deg, #fef9c3, #d9f99d); 
+}
+
+.property-address {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin-bottom: 12px;
+}
+
+.property-price {
+  font-size: 16px;
+  font-weight: 700;
+  color: #2a9d8f;
+  margin-bottom: 10px;
+}
+
+.property-info,
+.property-land {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+.property-description {
+  font-size: 14px;
+  color: #444;
+  line-height: 1.5;
+  margin-top: 10px;
+}
+
+.read-more {
+  font-weight: bold;
+  color: #e76f51;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center; 
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.search-input {
+  width: 100%;
+  max-width: 500px;
+  padding: 12px 20px;
+  border-radius: 12px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: #4f46e5;
+  box-shadow: 0 0 10px rgba(79, 70, 229, 0.2);
+}
