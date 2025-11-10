@@ -1,4 +1,6 @@
-A simple React dashboard that displays properties in Belmont North. Users can view property details, filter using the search bar, and expand cards to see more information.
+A simple React dummy dashboard that displays properties in Belmont North. Users can view property details, filter using the search bar, and expand cards to see more information.
+
+![alt text](image.png)
 
 ### Installation
 
